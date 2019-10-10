@@ -1,0 +1,129 @@
+/*----navbar....*/
+
+.navbar-contaner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.5);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-nav a {
+    font-weight: 700;
+    color: #6495ED;
+    padding: 0px;
+}
+
+#navbarDropdownMenuLink {
+    font-weight: 700;
+    color: #6495ED;
+    padding: 0px;
+}
+
+.navbar .navbar-nav a:hover {
+    color: rgb(0, 0, 255)
+}
+
+/*----special padding, margins text....*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*----footer....*/
+
+footer {
+    background-color: rgba(127, 255, 212, 0.5);
+    color: #6495ED;
+    min-height: 120px;
+    margin: 0;
+    width: 100%
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #6495ED;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: rgb(0, 0, 255);
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+/*----contact/form....*/
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+}
+
+.map-container {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    position: center;
+}
