@@ -22,17 +22,25 @@
 .navbar .navbar-nav a {
     font-weight: 700;
     color: #6495ED;
-    padding: 0px;
-}
-
-#navbarDropdownMenuLink {
-    font-weight: 700;
-    color: #6495ED;
-    padding: 0px;
+    padding: 5px;
 }
 
 .navbar .navbar-nav a:hover {
-    color: rgb(0, 0, 255)
+    color: rgb(0, 0, 255);
+    transition: 1s
+}
+
+/*----index....*/
+
+.imgheight {
+   height: 540px;
+   width: 540px;
+}
+
+/*----about....*/
+
+.about-container {
+    background: url("assets/images/backgroundimg.jpg");
 }
 
 /*----special padding, margins text....*/
@@ -51,7 +59,9 @@ h4 {
 .general-sub {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
-    color: #fafafa;
+    color: black;
+    padding: 10px;
+    text-align: center;
 }
 
 .inline-block {
@@ -121,9 +131,12 @@ button[type="submit"] {
     color: #fafafa;
 }
 
-.map-container {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+iframe {
+    width: 100% !important;
+    padding-bottom: 10px;
+}
+
+.opening-times {
     position: center;
+    text-align: center
 }
