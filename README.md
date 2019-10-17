@@ -1,9 +1,40 @@
- Your Project's Name
-One or two paragraphs providing an overview of your project.
+Copper Coffee Brochure Website
 
-Essentially, this part is your sales pitch.
+The idea behind this project is to drive customer traffic to the store. The shop is cosey with a great vintage aesthetic, however all the   
+seating is located upstairs in a room not visable from the street. This site not only needs to promote the shops existance but also
+compentate for issues in its physical design by informing people who are looking it up out of curiosity/ questioning is suitablility as a
+place to meet.
 
 UX
+
+The opening page will have a navbar and a carousel of scrolling images showing the other pages. the idea behind this is firstly, that it gives
+the opening page some movement, prompting people to look around. also, the shops aesthetic is one of its best features however, it may be jarring 
+to move from home to gallery skipping over the "about us" page. This way the logical order is provided in the navbar but should people care more
+about how the place they are drinking coffee looks, then the carousel offers a more free form route around the site, hopefully gaining the customers
+interst enough for them to stop back to the about us page for further reason to visit. 
+
+The about us page will contain text describing the formation of the shop, under that, there will be images of the staff. This shop is very 
+community focused and the propriotor would like to offer a more personal relationship with his customers. to save space this area will contain 
+pictures that flip around to reveal the information about the staff. finally there will be a geolocator and list of opening and closing times.
+there will be a drop down menu with a jump to feature from the about button on the navbar to aid navigation. helping people find the shop is a 
+high priority but maps themselve are not aesthetically pleasing. making it easy to navigate to with the dropdown while not having it front and 
+center on the about page seems the best compromise. 
+
+the gallery will contain static images. I didn't want to reuse the carousel as its been established as a means of navigation earlier in the site 
+so using it again without this feature may be confusing to users.
+
+The contact us page will be a form with text to the effect of "we love to colaberate" / "if you would just like to ask us some questions" under this 
+I will put another geolocator and list of open times as a prompt to come to the shop to ask these questions in person should they prefer. having 
+done research it seems 50/50 if the map is in the about us section or contact us section. theres no harm in repeating this and its important that
+everyone be able to find this info. 
+
+color scheme and typography is currently based on matching that of the shop, however, this may change if a clashing colorscheme would help the pictures
+pop. 
+
+ideally how it would work 
+
+there will be a footer containing copywrite, links to social media and excepted cards/e-wallet payment options. 
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:

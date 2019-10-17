@@ -30,11 +30,34 @@
     transition: 1s
 }
 
+.nav_fix{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #bfffea;
+}
+
 /*----index....*/
 
 .imgheight {
-   height: 540px;
-   width: 540px;
+   height: auto;
+   width: 100%;
+}
+
+.carousel-inner {
+    height: 90vh;
+}
+
+.carousel-item {
+  height:90vh;
+}
+
+.carousel-container{
+    padding:0;
+}
+
+.carousel-caption{
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
 /*----special padding, margins text....*/
@@ -62,16 +85,31 @@ h4 {
     display: inline-block;
 }
 
-.backgound-container {
+.background-container {
     background: url("../assets/images/backgroundimg.jpg");
-    height:400px;
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background-size: cover;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/*----About....*/
+
+.staff-container {
+  padding: 5px;
+  padding-bottom: 10px;
 }
 
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
+  height: 300px;
+  border: 0px solid #f1f1f1;
+  margin: auto;
   perspective: 1000px;
 }
   
@@ -154,6 +192,11 @@ footer {
     padding: 20px;
 }
 
+.middle{
+    text-align: center;
+}
+
+
 /*----contact/form....*/
 
 
@@ -175,6 +218,20 @@ iframe {
 }
 
 .opening-times {
-    position: center;
     text-align: center
+}
+
+/*----mobile css....*/
+@media only screen and (max-width: 800px) {
+  
+  
+.imgheight {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+  }  
+  
+  
+  
 }
