@@ -97,6 +97,10 @@ h4 {
     -o-background-size: cover;
 }
 
+body {
+    background-color: lavender;
+}
+
 /*----About....*/
 
 .staff-container {
@@ -139,8 +143,8 @@ h4 {
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: rgba(127, 255, 212, 0.5);
+  color: black;
   transform: rotateY(180deg);
 }
 
