@@ -60,6 +60,18 @@
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
+/*----gallery....*/
+
+.galleryimg {
+    height:300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 /*----special padding, margins text....*/
 
 h1,
@@ -76,9 +88,10 @@ h4 {
 .general-sub {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
-    color: black;
+    color: white;
     padding: 10px;
     text-align: center;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
 .inline-block {
@@ -87,6 +100,7 @@ h4 {
 
 .background-container {
     background: url("../assets/images/backgroundimg.jpg");
+    position: relative;
     height:100%;
     width: 100%;
     margin: 0;
@@ -96,6 +110,7 @@ h4 {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
 
 body {
     background-color: lavender;
@@ -235,7 +250,5 @@ iframe {
     position: absolute;
     object-fit: cover;
   }  
-  
-  
   
 }
